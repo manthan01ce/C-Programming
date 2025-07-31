@@ -1,0 +1,21 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int age;
+printf("Enter your age :");
+X: scanf(" %d", age);
+(age> 18) ? printf("eligible") : printf("not eligible");
+char 'ch';
+scanf("%c", &ch);
+if (ch == 'y')
+{
+ goto X;
+}
+
+getch();
+
+}
+
+
+
